@@ -18,7 +18,7 @@ const FirstDiv = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 30px 65px;
-    border-bottom: 1px solid #A5A1A1;
+    border-bottom: 0.2px solid #A5A1A1;
     font-weight: bold;
 `
 
@@ -27,6 +27,7 @@ const MainDiv = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 157px;
     padding: 60px 65px;
+    border-bottom: 0.2px solid #A5A1A1;
 
     div {
         margin-bottom: 30px;
